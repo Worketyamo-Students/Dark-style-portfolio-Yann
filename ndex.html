@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-black text-white mx-6 ">
+<body class="bg-black text-white md:mx-6 ">
 
     <!-- Navbar responsive -->
-    <nav class="flex justify-between mt-8 md:mx-36">
+    <nav class="flex justify-between mt-8 mx-6 md:mx-36">
         <div class="flex gap-2">
             <img src="assets/img/Frame.svg" alt="LOGO" class="w-[3rem] h-[3rem]">
             <h2 class="text-2xl py-2">znisa</h2>
@@ -45,9 +45,40 @@
             <span class="relative flex items-center justify-center bg-gray-900 rounded-full w-[3.3rem] h-[2.8rem]">
                 <img src="assets/img/Home.png" alt="" class=" w-[3rem] h-[2rem] ">
             </span>
-          </button>
+        </button>
           
     </nav>
+
+    <!-- header responsive -->
+    <div class="relative flex items-center justify-center min-h-screen bg-black my-14">
+        <!-- Grille avec les effets lumineux -->
+        <div class="absolute inset-0 grid grid-cols-4 grid-rows-7 opacity-20">
+            <div class="border border-white"></div>
+            <div class="border border-white"></div>
+            <div class="border border-white"></div>
+            <div class="border border-white"></div>
+            <div class="hidden sm:block border border-white"></div>
+            <div class="hidden sm:block border border-white"></div>
+        </div>
+    
+        <!-- Contenu principal -->
+        <div class="relative bg-gray-900 text-center md:p-10 rounded-3xl shadow-lg w-[20rem]">
+            <h1 class="text-white text-3xl font-semibold">I design and build clean websites</h1>
+            <p class="text-gray-400 mt-2">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+            
+            <!-- Bouton "Hire me" -->
+            <button class="mt-6 px-6 py-3 text-white font-medium rounded-full bg-gradient-to-r from-indigo-500 to-orange-300 shadow-lg hover:opacity-80 transition">
+                Hire me
+            </button>
+        </div>
+    
+        <!-- Effets lumineux -->
+        <div class="absolute top-0 left-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
+        <div class="absolute top-0 right-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
+        <div class="absolute bottom-0 left-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
+        <div class="absolute bottom-0 right-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
+    </div>
+    
 
     
 </body>
