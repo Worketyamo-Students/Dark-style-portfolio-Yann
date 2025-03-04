@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-black text-white md:mx-6 ">
+<body class="bg-black text-white lg:mx-6 ">
 
     <!-- Navbar responsive -->
     <nav class="flex justify-between mt-8 mx-6 md:mx-36">
@@ -50,35 +50,113 @@
     </nav>
 
     <!-- header responsive -->
-    <div class="relative flex items-center justify-center min-h-screen bg-black my-14">
-        <!-- Grille avec les effets lumineux -->
-        <div class="absolute inset-0 grid grid-cols-4 grid-rows-7 opacity-20">
-            <div class="border border-white"></div>
-            <div class="border border-white"></div>
-            <div class="border border-white"></div>
-            <div class="border border-white"></div>
-            <div class="hidden sm:block border border-white"></div>
-            <div class="hidden sm:block border border-white"></div>
+   <!-- Hero Section -->
+    <section class="flex flex-col justify-evenly items-center w-full mt-20 ">
+        <div class="bg-white flex  flex-col">
+            <div class=" h-full flex w-[26.8rem] lg:w-[83rem] ">
+                <div class="border w-32 lg:w-[15rem] h-12 lg:h-[4.5rem] rounded-br-xl bg-black lg:rounded-none  border-[#FFFFFF33]"></div>
+                <div class="border w-36 lg:w-[15rem] h-12 lg:h-[4.5rem] bg-black md:rounded-none lg:block  hidden border-[#FFFFFF33]"></div>
+                <div class="border w-32 lg:w-[15rem] h-12 lg:h-[4.5rem] bg-black md:rounded-none rounded-bl-xl border-[#FFFFFF33]"></div>
+                <div class="border w-32 lg:w-[15rem] h-12 lg:h-[4.5rem] bg-black md:rounded-none border-[#FFFFFF33]"></div>
+                <div class="border w-36 lg:w-[15rem] h-12 lg:h-[4.5rem] bg-black md:block  hidden border-[#FFFFFF33] lg:rounded-br-xl"></div>
+                <div class="border w-32 lg:w-[15rem] h-12 lg:h-[4.5rem] bg-black border-[#FFFFFF33] lg:rounded-bl-xl "></div>
+
+            </div>
+            <div class="lg:hidden h-full  flex w-[26.8rem] ">
+                <div class=" w-32 lg:w-[15rem] h-12 rounded-tr-xl bg-black border-hidden "></div>
+                <div class=" w-36 lg:w-[15rem] h-12 bg-black md:rounded-none md:block  hidden "></div>
+                <div class=" w-32 lg:w-[15rem] h-12 bg-black md:rounded-none rounded-tl-xl "></div>
+                <div class=" w-32 lg:w-[15rem] h-12 bg-black md:rounded-none "></div>
+                <div class=" w-36 lg:w-[15rem] h-12 bg-black md:block  hidden md:rounded-br-xl"></div>
+                <div class=" w-32 lg:w-[15rem] h-12 bg-black md:rounded-bl-xl "></div>
+
+            </div>
+
         </div>
-    
-        <!-- Contenu principal -->
-        <div class="relative bg-gray-900 text-center md:p-10 rounded-3xl shadow-lg w-[20rem]">
-            <h1 class="text-white text-3xl font-semibold">I design and build clean websites</h1>
-            <p class="text-gray-400 mt-2">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+
+        
+        <div class="flex  flex-col gap-2 pb-8 justify-center pt-12 px-5 w-[26.8rem] block lg:hidden">
+                <h1 class="text-center w-[25rem] text-2xl font-normal">I design and build clean websites</h1> 
+                <p class="text-center  text-sm px-2 pt-2">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+                <div class="flex justify-center text-center items-center flex-1 border-[#FFFFFF33] h-18">
+                    <button type="submit" class="rounded-full flex items-center justify-center bg-gradient-to-r from-[#FFD49C]  to-[#7A87FB] p-1 text-black  px-6 py-2"  >Hire me</button>
+                </div>
+        </div>
+
+        <div class="lg:flex lg:flex-row lg:w-[83rem] hidden lg:block">
+            <div class="">
+                <div class="border  w-36 lg:w-[13.8rem] h-16 lg:h-[4.5rem] border-[#FFFFFF33]"></div>
+                <div class="border  w-36 lg:w-[13.8rem] h-16 lg:h-[4.5rem] border-[#FFFFFF33]"></div>
+                <div class="border  w-36 lg:w-[13.8rem] h-16 lg:h-[4.5rem] border-[#FFFFFF33]"></div>
+            </div>  
             
-            <!-- Bouton "Hire me" -->
-            <button class="mt-6 px-6 py-3 text-white font-medium rounded-full bg-gradient-to-r from-indigo-500 to-orange-300 shadow-lg hover:opacity-80 transition">
-                Hire me
-            </button>
+                <div class="flex flex-col items-center">
+                    <div class="bg-white lg:border-b-0 ">
+                        <div class="border  w-[28rem] lg:w-[55.4rem] h-18 border-[#FFFFFF33] lg:border-b-0  lg:border-collapse lg:rounded-tr-xl lg:bg-black">
+                            <h1 class="text-center pt-10 text-xl lg:text-4xl lg:font-light font-semibold">I design and build clean websites</h1> 
+                        </div>
+
+                    </div>
+                    <div class="w-[40rem] lg:w- border-[#FFFFFF33] h-60 lg:h-full">
+                        <p class=" text-center pt-4 lg:text-lg text-sm px-14">Write anything here something about yourself to showcase what actually you doing or targeting etc.</p>
+                    </div>
+                    <div class="flex justify-center text-center items-center border-[#FFFFFF33] h-18">
+                        <button type="submit" class="rounded-full flex items-center justify-center bg-gradient-to-r from-[#FFD49C]  to-[#7A87FB] text-black  px-6 py-2"  >Hire me</button>
+                    </div>
+
+                </div>    
+
+            
+
+            <div class="bg-white ">
+                <div class="border  w-36 lg:w-[13.8rem] h-16 lg:h-[4.5rem] border-[#FFFFFF33] lg:rounded-tl-xl bg-black"></div>
+                <div class="border  w-36 lg:w-[13.8rem] h-16 lg:h-[4.5rem] border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-36 lg:w-[13.8rem] h-16 lg:h-[4.5rem] border-[#FFFFFF33] bg-black"></div>
+            </div>    
+
         </div>
+        <div class="bg-white">
+            <div class="w-[26.8rem] flex border-t-0 lg:w-[83rem]">
+                <div class="lg:border border lg:w-[15rem]  border-t-0 lg:rounded-none w-36 h-16 border-[#FFFFFF33] bg-black"></div>
+                <div class="lg:border border lg:w-[15rem] w-36 h-16 lg:block  hidden border-[#FFFFFF33] bg-black lg:rounded-none"></div>
+                <div class="lg:border border lg:w-[15rem] border-t-0 border-r-0   w-36 h-16 lg:border-[#FFFFFF33] border-[#101111] bg-black"></div>
+                <div class="lg:border border lg:w-[15rem] border-t-0 border-l-0 lg:rounded-none  rounded-br-xl border-collapse w-36 h-16 lg:border-[#FFFFFF33] border-[#101111] bg-black"></div>
+                <div class="lg:border border lg:w-[15rem] w-36 h-16 lg:block  hidden border-[#FFFFFF33] bg-black"></div>
+                <div class="lg:border border lg:w-[15rem]  border-t-0 w-36 h-16 lg:rounded-none  rounded-bl-xl border-[#FFFFFF33] bg-black"></div>
+
+            </div>
+            <div class="w-[26.8rem] flex lg:w-[83rem]">
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-36 lg:w-[15rem] h-16 lg:block  hidden border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-32 lg:w-[15rem] h-16 rounded-tr-xl lg:rounded-none border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-36 lg:w-[15rem] h-16 lg:block  hidden border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] rounded-tl-xl lg:rounded-none  bg-black"></div>
+
+            </div>
+            <div class="w-[26.8rem] flex lg:w-[83rem]">
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-36 lg:w-[15rem] h-16 lg:block  hidden border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-36 lg:w-[15rem] h-16 lg:block  hidden border-[#FFFFFF33] bg-black"></div>
+                <div class="border  w-32 lg:w-[15rem] h-16 border-[#FFFFFF33] bg-black"></div>
     
-        <!-- Effets lumineux -->
-        <div class="absolute top-0 left-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
-        <div class="absolute top-0 right-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
-        <div class="absolute bottom-0 left-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
-        <div class="absolute bottom-0 right-0 w-6 h-6 bg-white opacity-30 rounded-full blur-lg"></div>
-    </div>
-    
+            </div>
+        </div>
+
+        <div class="w-full lg:w-[110rem] justify-between lg:justify-around border-y-[.1rem] px-4 lg:px-14 py-5 items-center border-[#FFFFFF33] flex gap-6" >
+            <span class="text-base">framer</span>
+            <img src="assets/img/22.svg" alt=""  class="w-[1rem]">
+            <span class="text-base">webflow</span>
+            <img src="assets/img/22.svg" alt="" class="w-[1rem]">
+            <span class="text-base">figma</span>
+            <img src="assets/img/22.svg" alt="" class="w-[1rem]">
+            <span class="hidden lg:block">notion</span>
+            <img class="hidden lg:block" src="assets/img/22.svg" alt="">
+
+        </div>
+    </section>
 
     
 </body>
