@@ -1,9 +1,9 @@
 # Dark-style-portfolio-Yann
 
-Bento STYLE 📝 
+Bento STYLE 📝  
 un exemple de portfolio style dark
 
-Technologies🚀 
+Technologies🚀  
 Html  
 tailwind css
 
