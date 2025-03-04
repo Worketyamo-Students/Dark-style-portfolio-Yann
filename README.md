@@ -1,22 +1,17 @@
 # Dark-style-portfolio-Yann
 
-Bento STYLE 📝
+Bento STYLE 📝 
 un exemple de portfolio style dark
 
-Technologies🚀
-
-Html
-
+Technologies🚀 
+Html  
 tailwind css
 
-Fonctionnalites 🔥
-
+Fonctionnalites 🔥  
 un portfolio contenant des photos et des textes avec un style degrade
 
-Initialisation ✨
-
+Initialisation ✨  
 https://github.com/Worketyamo-Students/Dark-style-portfolio-Yann.git
 
-Contibuteur
-
+Contibuteur  
 @Yvanov237
