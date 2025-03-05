@@ -8,7 +8,7 @@
   un portfolio contenant des photos et des textes avec un style degrade
       
   ## Initialisation ✨ 
-https://github.com/Worketyamo-Students/Dark-style-portfolio-Yann.git
+git clone https://github.com/Worketyamo-Students/Dark-style-portfolio-Yann.git
  
   ## Contibuteur
   @Yvanov237
