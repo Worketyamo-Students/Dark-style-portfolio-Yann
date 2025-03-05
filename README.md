@@ -1,6 +1,4 @@
-# Dark-style-portfolio-Yann
-
-# Bento STYLE 📝  
+# Dark-style-portfolio-Yann 📝  
  un exemple de portfolio style dark
 ## Technologies🚀  
   * Html
